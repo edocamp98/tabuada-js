@@ -1,3 +1,8 @@
+function clickPress(event){
+    if (event.keyCode == ""){
+        tabuada()
+    }
+}
 function tabuada(){
     var txtab = document.getElementById('tab')
     var seltab = document.getElementById('seltab')
